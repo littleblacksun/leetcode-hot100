@@ -1,13 +1,16 @@
 <img width="659" height="723" alt="image" src="https://github.com/user-attachments/assets/84aaa3bb-e8ac-454e-81c1-97cb7b26bb9e" />
 
-##题意解读
+## 题意解读
+
 针对于字母异位词，如果重新排序之后，字符串相同，就可以视作为字母异位词
 
-##如下所示
+## 如下所示
+
 eat tea ate -> aet
 tan nat -> ant
 bat -> bat
 所以只需要把字符串排序之后相同的原字符串，放在同一个hash列表中即可 
+
 
 
 ``` java
