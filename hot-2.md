@@ -34,6 +34,7 @@ class Solution {
             // 5. new String(char[])：将排序后的字符数组转回字符串（作为哈希表的key）
             //    比如 sortedS是['a','e','t']，转回后就是 "aet"
             String key = new String(sortedS);
+            //在这一步，得到了字符串s和他对应的升序字符串key
             
             /* 
                6. Map.computeIfAbsent()：核心API，分两步执行
