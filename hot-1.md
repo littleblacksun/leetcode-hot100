@@ -35,7 +35,7 @@ class Solution {
 
 在hash表中的值，只用来保存nums[i]的索引index，如果有不符合条件且相同的健值，可以直接index覆盖
 
-```bash	
+```java	
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> idx = new HashMap<>(); // 创建一个空哈希表
