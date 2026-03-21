@@ -1,6 +1,5 @@
-![image-20260321114929100](/home/bubu/.config/Typora/typora-user-images/image-20260321114929100.png)
-![Uploading image.png…]()
 
+<img width="889" height="734" alt="image" src="https://github.com/user-attachments/assets/15676e6e-312a-4edc-b450-c0775c23858b" />
 > 对于无序的两数之后，最基本的解放有两种，一个是暴力解法，一个是利用哈希
 
 
