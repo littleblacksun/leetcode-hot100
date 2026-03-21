@@ -1,8 +1,7 @@
 
 <img width="889" height="734" alt="image" src="https://github.com/user-attachments/assets/15676e6e-312a-4edc-b450-c0775c23858b" />
+
 > 对于无序的两数之后，最基本的解放有两种，一个是暴力解法，一个是利用哈希
-
-
 
 ## 暴力解法
 
@@ -31,7 +30,8 @@ class Solution {
 
 > 从左边开始，把  nums[j]   :  j    放入到hash表中，那么我在后来指针往后走的时候，只需要去看，之前的hash表中是否有nums[i]=target-nums[j]
 
-![image-20260321120531701](/home/bubu/.config/Typora/typora-user-images/image-20260321120531701.png)
+<img width="965" height="451" alt="image" src="https://github.com/user-attachments/assets/03f7d795-5593-4c67-b94b-b7709334668b" />
+
 
 在hash表中的值，只用来保存nums[i]的索引index，如果有不符合条件且相同的健值，可以直接index覆盖
 
