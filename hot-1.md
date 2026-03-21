@@ -1,4 +1,5 @@
 ![image-20260321114929100](/home/bubu/.config/Typora/typora-user-images/image-20260321114929100.png)
+![Uploading image.png…]()
 
 > 对于无序的两数之后，最基本的解放有两种，一个是暴力解法，一个是利用哈希
 
