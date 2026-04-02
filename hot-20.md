@@ -42,6 +42,9 @@ public class Solution {
         return null;
     }
 }
+
+```
+
 <img width="1520" height="670" alt="image" src="https://github.com/user-attachments/assets/7ecc871a-c4ce-4f5b-ac95-46404d5c4df8" />
 
 ### 数学原理
