@@ -42,3 +42,22 @@ public class Solution {
         return null;
     }
 }
+<img width="1520" height="670" alt="image" src="https://github.com/user-attachments/assets/7ecc871a-c4ce-4f5b-ac95-46404d5c4df8" />
+
+### 数学原理
+设：
+- 头节点到环入口距离为 L
+- 环入口到相遇点距离为 x
+- 环的周长为 c
+
+相遇时：
+- slow 走过路程：L + x
+- fast 走过路程：L + x + n·c
+- 因为 fast 速度是 slow 的2倍，故 2(L+x) = L+x + n·c
+- 化简得：L = n·c − x
+
+这表示：**从头节点到环入口的距离 = 从相遇点走到环入口的距离**。
+因此两指针同步走1步，必然在环入口相遇。
+
+<img width="1545" height="669" alt="image" src="https://github.com/user-attachments/assets/d1345103-b8f4-4ffe-a1a9-66d0f75e531b" />
+
